@@ -1,0 +1,1235 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/simulation/modelsim
+Eadder
+Z1 w1683383253
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 13
+R0
+Z6 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/alu.vhd
+Z7 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/alu.vhd
+l0
+L48 1
+VNBA6lIn06CAN2=I^Fj[663
+!s100 P8IjSSTgO9IR>`WOZDDFl1
+Z8 OV;C;2020.1;71
+31
+Z9 !s110 1683395181
+!i10b 1
+Z10 !s108 1683395181.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/alu.vhd|
+Z12 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/alu.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Alook_ahead
+R2
+R3
+R4
+R5
+DEx4 work 5 adder 0 22 NBA6lIn06CAN2=I^Fj[663
+!i122 13
+l73
+L56 39
+VJV=GWDG[Zo_Bo<:]S7>5M3
+!s100 F8;l?IXbRbmMX:39IQTYh1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ealu
+R1
+R2
+R4
+R5
+!i122 13
+R0
+R6
+R7
+l0
+L100 1
+VKZB3Jm1O_;1?b>hJL4RJQ2
+!s100 4nh2l7Pc6hM5DBT1zd^TL1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abehave
+R2
+R4
+R5
+DEx4 work 3 alu 0 22 KZB3Jm1O_;1?b>hJL4RJQ2
+!i122 13
+l123
+L110 67
+VLP;]7TLN44kPV`1k^;]5a0
+!s100 jdYJ?QmQ6RW6HL=g7RagP2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eb_predict
+Z15 w1683375676
+R5
+R4
+R2
+!i122 3
+R0
+Z16 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/branch_pred.vhd
+Z17 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/branch_pred.vhd
+l0
+L5 1
+VbKYWNE7XiM^V?Rf6RURMH1
+!s100 R>J^=JODYjoRn0z3c[JcM0
+R8
+31
+Z18 !s110 1683395177
+!i10b 1
+Z19 !s108 1683395177.000000
+Z20 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/branch_pred.vhd|
+Z21 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/branch_pred.vhd|
+!i113 1
+R13
+R14
+Apredict
+R5
+R4
+R2
+DEx4 work 9 b_predict 0 22 bKYWNE7XiM^V?Rf6RURMH1
+!i122 3
+l35
+L17 87
+VZU[H^Lbl=E]]eQQkPC6S11
+!s100 5V4G<:b9k2WMm26FfXE@@3
+R8
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Ecarry_generate
+R1
+R2
+R4
+R5
+!i122 13
+R0
+R6
+R7
+l0
+L24 1
+VlLcQNo_Z^aHiLAAj5TWPU0
+!s100 ^>NS>Mk5IijeD6H6Vz07P3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abasic
+R2
+R4
+R5
+DEx4 work 14 carry_generate 0 22 lLcQNo_Z^aHiLAAj5TWPU0
+!i122 13
+l33
+L31 11
+VU6H08@fld>5zCH[?l22081
+!s100 kbZmVlPUVLfG<L9j:I:AY0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eex_hazard_unit
+Z22 w1683383233
+R5
+R4
+R2
+!i122 2
+R0
+Z23 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/hazard_logic.vhd
+Z24 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/hazard_logic.vhd
+l0
+L82 1
+VCMb^1fKnfh^jM]0_dd;;i1
+!s100 ^3HhR;i1PeD3fRdRhIJ_:2
+R8
+31
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/hazard_logic.vhd|
+Z26 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/hazard_logic.vhd|
+!i113 1
+R13
+R14
+Ahazard3
+R5
+R4
+R2
+DEx4 work 14 ex_hazard_unit 0 22 CMb^1fKnfh^jM]0_dd;;i1
+!i122 2
+l99
+L95 115
+VMlG=4NG2CUCOWjAH9PML00
+!s100 ZIE<b@7JAXee3ea^fPVFi2
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Eex_mm
+Z27 w1683393788
+R2
+R4
+R5
+!i122 5
+R0
+Z28 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pipe_reg.vhd
+Z29 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pipe_reg.vhd
+l0
+L326 1
+VJO5X]^?cSKNMGL63^`BaL2
+!s100 >b^kV]aEOOFYhJkcRA``Q0
+R8
+31
+Z30 !s110 1683395178
+!i10b 1
+Z31 !s108 1683395178.000000
+Z32 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pipe_reg.vhd|
+Z33 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pipe_reg.vhd|
+!i113 1
+R13
+R14
+Apipreg4
+R2
+R4
+R5
+DEx4 work 5 ex_mm 0 22 JO5X]^?cSKNMGL63^`BaL2
+!i122 5
+l377
+L365 82
+VV?XFd6HW8LHFEP?O`ZM<;1
+!s100 gUafULf4hfCz?D^n2MhKR0
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Eforward_controller
+Z34 w1683382299
+R2
+R4
+R5
+!i122 0
+R0
+Z35 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/forwarding.vhd
+Z36 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/forwarding.vhd
+l0
+L5 1
+Vmb`f20=RF3WmhO^==OUh81
+!s100 <K`Zgc>ZnjSZ9fzXLhz9I2
+R8
+31
+Z37 !s110 1683395176
+!i10b 1
+Z38 !s108 1683395176.000000
+Z39 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/forwarding.vhd|
+Z40 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/forwarding.vhd|
+!i113 1
+R13
+R14
+Ahazard1
+R2
+R4
+R5
+DEx4 work 18 forward_controller 0 22 mb`f20=RF3WmhO^==OUh81
+!i122 0
+l18
+L16 40
+V<65]5DC735U;RNhJlaz9W1
+!s100 R`S<`eR`QR:;P9Qg@WeMb0
+R8
+31
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R13
+R14
+Efull_adder
+R1
+R2
+R4
+R5
+!i122 13
+R0
+R6
+R7
+l0
+L5 1
+V3ioCgVhKTE[GOgXVj34?T1
+!s100 FjiV;giGF@SBj7VU5MCXc1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Abasic
+R2
+R4
+R5
+DEx4 work 10 full_adder 0 22 3ioCgVhKTE[GOgXVj34?T1
+!i122 13
+l12
+L11 8
+V6CHk[2]HV<Ve;[SL18iH63
+!s100 XSXzKXAlOYn30ID0=6<lI2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eid_rr
+R27
+R2
+R4
+R5
+!i122 5
+R0
+R28
+R29
+l0
+L76 1
+VEIkaP?>;<>fZC;:<d`ld=0
+!s100 obl94QAh45_CRzL<;`DEn3
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Apipreg2
+R2
+R4
+R5
+DEx4 work 5 id_rr 0 22 EIkaP?>;<>fZC;:<d`ld=0
+!i122 5
+l129
+L117 81
+VVHQZ4?E=4BkPPWjSXY[IH3
+!s100 3Z<YDj4476TH^Y=kLblKL0
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Eif_id
+R27
+R2
+R4
+R5
+!i122 5
+R0
+R28
+R29
+l0
+L5 1
+VWmUi;XizZo@YL:feh4ACG0
+!s100 Nag4gD83@=5DekG8NoPS83
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Apipreg1
+R2
+R4
+R5
+DEx4 work 5 if_id 0 22 WmUi;XizZo@YL:feh4ACG0
+!i122 5
+l39
+L25 46
+Vd1B>2GgO?dK_lM5<<D@BC0
+!s100 AoX[QeGVbVcn@hS]TezlY0
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Eiitb_cpu
+Z41 w1683395098
+R3
+R5
+R4
+R2
+!i122 6
+R0
+Z42 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/02. main/IITB_CPU.vhd
+Z43 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/02. main/IITB_CPU.vhd
+l0
+L7 1
+VDDez`agmCh_La^g8fYTFH0
+!s100 N]JaG89b9e`H5]<V2b5jD3
+R8
+31
+Z44 !s110 1683395179
+!i10b 1
+R31
+Z45 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/02. main/IITB_CPU.vhd|
+Z46 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/02. main/IITB_CPU.vhd|
+!i113 1
+R13
+R14
+Apiped
+R3
+R5
+R4
+R2
+DEx4 work 8 iitb_cpu 0 22 DDez`agmCh_La^g8fYTFH0
+!i122 6
+l385
+L12 831
+VGVF=7f;Vf_CgA[hNW;D_]2
+!s100 h2P0DO[_9j^Q_MBLfV7R80
+R8
+31
+R44
+!i10b 1
+R31
+R45
+R46
+!i113 1
+R13
+R14
+Einst_decoder
+Z47 w1683383289
+R5
+R4
+R2
+!i122 1
+R0
+Z48 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/insdecoder.vhd
+Z49 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/insdecoder.vhd
+l0
+L5 1
+VGWTTo_RmX`R>BL_NCIgKf1
+!s100 OUjQHMmY@J<3aCQDBkH@V1
+R8
+31
+R18
+!i10b 1
+R19
+Z50 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/insdecoder.vhd|
+Z51 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/insdecoder.vhd|
+!i113 1
+R13
+R14
+Ainst
+R5
+R4
+R2
+DEx4 work 12 inst_decoder 0 22 GWTTo_RmX`R>BL_NCIgKf1
+!i122 1
+l19
+L13 342
+VWd=]jL]H`?V?Cb`>7abUO3
+!s100 e2aQFS0RY`SFCTChbXGGn3
+R8
+31
+R18
+!i10b 1
+R19
+R50
+R51
+!i113 1
+R13
+R14
+Elm_sm
+Z52 w1683375954
+R3
+R5
+R4
+R2
+!i122 4
+R0
+Z53 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/MulticycleLMSM.vhd
+Z54 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/MulticycleLMSM.vhd
+l0
+L75 1
+VCzjYh<^d5MC^J=ABQjOAa2
+!s100 ?YCXK[:i@B<loTlifle@80
+R8
+31
+R30
+!i10b 1
+R31
+Z55 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/MulticycleLMSM.vhd|
+Z56 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/MulticycleLMSM.vhd|
+!i113 1
+R13
+R14
+Afsm
+R3
+R5
+R4
+R2
+DEx4 work 5 lm_sm 0 22 CzjYh<^d5MC^J=ABQjOAa2
+!i122 4
+l101
+L84 159
+V80XQBXU>zfff6XNhB06@R2
+!s100 FCL;:25RQ^LohXL]UGjd`1
+R8
+31
+R30
+!i10b 1
+R31
+R55
+R56
+!i113 1
+R13
+R14
+Ememory
+Z57 w1669820976
+Z58 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R2
+R3
+R4
+R5
+!i122 11
+R0
+Z59 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RAM.vhd
+Z60 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RAM.vhd
+l0
+L8 1
+VDz;bJQieX`NSoQhCkHl[J2
+!s100 PABSl1mh7>F?WYm_^R;g92
+R8
+31
+Z61 !s110 1683395180
+!i10b 1
+Z62 !s108 1683395180.000000
+Z63 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RAM.vhd|
+Z64 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RAM.vhd|
+!i113 1
+R13
+R14
+Astruct
+R58
+R2
+R3
+R4
+R5
+DEx4 work 6 memory 0 22 Dz;bJQieX`NSoQhCkHl[J2
+!i122 11
+l42
+L16 47
+VeK79EC<X=U_ZFdEdNkz4>2
+!s100 0?>MH[AQEUI=zLEBC;fG@0
+R8
+31
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R13
+R14
+Emm_forward_unit
+R22
+R2
+R4
+R5
+!i122 2
+R0
+R23
+R24
+l0
+L268 1
+V]gYKeZ5DL[YIiodR5@h[k1
+!s100 2V_S8N?0=3`=3z1TU7SOm3
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Ahazard6
+R2
+R4
+R5
+DEx4 work 15 mm_forward_unit 0 22 ]gYKeZ5DL[YIiodR5@h[k1
+!i122 2
+l279
+L277 6
+Voo>=PT98N9>F>_7W6eW_>1
+!s100 9ZLm@9]:IKoMIm9W^S`8H0
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Emm_hazard_unit
+R22
+R5
+R4
+R2
+!i122 2
+R0
+R23
+R24
+l0
+L216 1
+V>MNFO>RM7Pk:MZXG4YVFf3
+!s100 hO51KYI^AQob5]EGQG35z3
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Ahazard4
+R5
+R4
+R2
+DEx4 work 14 mm_hazard_unit 0 22 >MNFO>RM7Pk:MZXG4YVFf3
+!i122 2
+l226
+L225 7
+VETAnge5R9JIShQFoonhdU2
+!s100 GUaF[8:E^Bl9h]1A:`HS<1
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Emm_wb
+R27
+R2
+R4
+R5
+!i122 5
+R0
+R28
+R29
+l0
+L453 1
+Ve@QbaS7?]faWf[]?zOR`H0
+!s100 bIS0dCa;>cLeQ^UAGU<1J2
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Apipreg5
+R2
+R4
+R5
+DEx4 work 5 mm_wb 0 22 e@QbaS7?]faWf[]?zOR`H0
+!i122 5
+l502
+L490 73
+V[8:dN<E__on`Lk<W;]Q[j0
+!s100 ^kh2RN_;mbON>kQX>_jQO2
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Emodifier_pe
+R52
+R3
+R5
+R4
+R2
+!i122 4
+R0
+R53
+R54
+l0
+L6 1
+Vk[<?kDR8jzmFSfihOXkd_1
+!s100 Nl@49QZK]7JIJ=GzP3HY@1
+R8
+31
+R30
+!i10b 1
+R31
+R55
+R56
+!i113 1
+R13
+R14
+Amultiple
+R3
+R5
+R4
+R2
+DEx4 work 11 modifier_pe 0 22 k[<?kDR8jzmFSfihOXkd_1
+!i122 4
+l39
+L14 55
+VXQhEG]B7H=cRD?PWTEZMh3
+!s100 jGd;l]eI4jP]824^c1=g>3
+R8
+31
+R30
+!i10b 1
+R31
+R55
+R56
+!i113 1
+R13
+R14
+Ep_encoder
+Z65 w1669797272
+R3
+R5
+R4
+R2
+!i122 12
+R0
+Z66 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pri_encoder.vhd
+Z67 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pri_encoder.vhd
+l0
+L6 1
+VUY4@8;JX:d41i5KNUON9i0
+!s100 OU>>blPWH=[aR0f5a?;z@0
+R8
+31
+R9
+!i10b 1
+R10
+Z68 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pri_encoder.vhd|
+Z69 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/pri_encoder.vhd|
+!i113 1
+R13
+R14
+Abehave_ov
+R3
+R5
+R4
+R2
+DEx4 work 9 p_encoder 0 22 UY4@8;JX:d41i5KNUON9i0
+!i122 12
+l16
+L14 18
+VnSR_T6lMIBRQBC?KXCc<;3
+!s100 zCLY0^d^gP6kKlGAUOI@f2
+R8
+31
+R9
+!i10b 1
+R10
+R68
+R69
+!i113 1
+R13
+R14
+Ereg_generic
+Z70 w1669817426
+R2
+R4
+R5
+!i122 10
+R0
+Z71 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/register_generic.vhd
+Z72 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/register_generic.vhd
+l0
+L5 1
+V49Z5EDOhna`YI1PDVC_4N0
+!s100 b6`J]<X63j]fa4Hhk]XaZ1
+R8
+31
+R61
+!i10b 1
+R62
+Z73 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/register_generic.vhd|
+Z74 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/register_generic.vhd|
+!i113 1
+R13
+R14
+Areg
+R2
+R4
+R5
+DEx4 work 11 reg_generic 0 22 49Z5EDOhna`YI1PDVC_4N0
+!i122 10
+l15
+L14 15
+Vdfj71L4Q<;m0>DR05jo?[1
+!s100 h]ZfSBJ<SRT<DK0dI6Ff:2
+R8
+31
+R61
+!i10b 1
+R62
+R73
+R74
+!i113 1
+R13
+R14
+Eregister_file
+Z75 w1683385088
+R58
+R2
+R3
+R4
+R5
+!i122 9
+R0
+Z76 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RF.vhd
+Z77 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RF.vhd
+l0
+L8 1
+VKnXSoU^zb>35Phi4g56=S2
+!s100 =h7JHHSSff0`J1M13kkWD3
+R8
+31
+R61
+!i10b 1
+Z78 !s108 1683395179.000000
+Z79 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RF.vhd|
+Z80 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/RF.vhd|
+!i113 1
+R13
+R14
+Atrial
+R58
+R2
+R3
+R4
+R5
+DEx4 work 13 register_file 0 22 KnXSoU^zb>35Phi4g56=S2
+!i122 9
+l44
+L16 58
+VP>5_o@>Uf<ciV?cmTF9[03
+!s100 AYLf37i9=>U>^RG59Ejm_1
+R8
+31
+R61
+!i10b 1
+R78
+R79
+R80
+!i113 1
+R13
+R14
+Erom
+Z81 w1669817630
+R58
+R2
+R4
+R5
+!i122 8
+R0
+Z82 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/ROM.vhd
+Z83 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/ROM.vhd
+l0
+L7 1
+VZK@z[ScdN6?WI=LSUZ5=h2
+!s100 Q:m]e^fZ_@Jbk`H:mF6<P3
+R8
+31
+R44
+!i10b 1
+R78
+Z84 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/ROM.vhd|
+Z85 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/ROM.vhd|
+!i113 1
+R13
+R14
+Abehave
+R58
+R2
+R4
+R5
+DEx4 work 3 rom 0 22 ZK@z[ScdN6?WI=LSUZ5=h2
+!i122 8
+l31
+L14 23
+VEON;zQH6<A;M<YD<TZNNz2
+!s100 jonLQ`d1OL`mOhYFREmEB1
+R8
+31
+R44
+!i10b 1
+R78
+R84
+R85
+!i113 1
+R13
+R14
+Err_ex
+R27
+R2
+R4
+R5
+!i122 5
+R0
+R28
+R29
+l0
+L203 1
+V@J^1;W[oYci0eaW[g0B5_0
+!s100 jHXUQgk;Y6]H[ecUN`9>b1
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Apipreg3
+R2
+R4
+R5
+DEx4 work 5 rr_ex 0 22 @J^1;W[oYci0eaW[g0B5_0
+!i122 5
+l255
+L244 77
+V1gAkej0JMX;9HW6RGG8F03
+!s100 85JZK:8m^nbBRn3@Azh8k2
+R8
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Err_hazard_unit
+R22
+R5
+R4
+R2
+!i122 2
+R0
+R23
+R24
+l0
+L5 1
+Vc2bY40ai@fIkK1YIQ?6k_3
+!s100 kA^4LX8XbCklf3BOjgneh3
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Ahazard2
+R5
+R4
+R2
+DEx4 work 14 rr_hazard_unit 0 22 c2bY40ai@fIkK1YIQ?6k_3
+!i122 2
+l18
+L15 11
+VfOSK8bYzKT8lhO2_4bWkk0
+!s100 >;F<A9nP0F:eJd6OKZjgJ1
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Esign_extend
+Z86 w1683383109
+R2
+R4
+R5
+!i122 7
+R0
+Z87 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/sign_extend.vhd
+Z88 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/sign_extend.vhd
+l0
+L5 1
+VLNKg50IkzjI6P572P9@zR1
+!s100 0b_4^7D:Ye5hPgObU3Y]12
+R8
+31
+R44
+!i10b 1
+R78
+Z89 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/sign_extend.vhd|
+Z90 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/01. components/sign_extend.vhd|
+!i113 1
+R13
+R14
+Ase
+R2
+R4
+R5
+DEx4 work 11 sign_extend 0 22 LNKg50IkzjI6P572P9@zR1
+!i122 7
+l14
+L12 29
+V=VVQLc3jAHaW@cVzjGD;z2
+!s100 A77gk<DoGnkHQh6NekTJA3
+R8
+31
+R44
+!i10b 1
+R78
+R89
+R90
+!i113 1
+R13
+R14
+Estall_unit
+R22
+R5
+R4
+R2
+!i122 2
+R0
+R23
+R24
+l0
+L31 1
+V_j>CL4`8`J0T`zSCUO>Xb0
+!s100 dbflM;U1N59@G7>TbX`BN2
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Ahazard
+R5
+R4
+R2
+DEx4 work 10 stall_unit 0 22 _j>CL4`8`J0T`zSCUO>Xb0
+!i122 2
+l42
+L40 37
+VN^OP[UWPRKjHRDllEd2=_0
+!s100 CG5V>_AiIk;8KTelz600L0
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Etestbench
+Z91 w1683383611
+R2
+R4
+R5
+!i122 14
+R0
+Z92 8G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/03. testbench/testbench.vhd
+Z93 FG:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/03. testbench/testbench.vhd
+l0
+L5 1
+V]kGdGjI7=0X]i4Ob>40W<0
+!s100 h`]lGXCg42E<3S3:oXW_N1
+R8
+31
+R9
+!i10b 1
+R10
+Z94 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/03. testbench/testbench.vhd|
+!s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/03. testbench/testbench.vhd|
+!i113 1
+R13
+R14
+Abhv
+R2
+R4
+R5
+DEx4 work 9 testbench 0 22 ]kGdGjI7=0X]i4Ob>40W<0
+!i122 14
+l14
+L8 27
+VCgnTILeTEfM[jmh6eme^=2
+!s100 1d@XA^7:e]6QcYaB>oh`60
+R8
+31
+R9
+!i10b 1
+R10
+R94
+Z95 !s107 G:/My Drive/Insti Material/04. Sem 4/05. EE309/03. Project/02. Project/Project Files/IITB_CPU/03. testbench/testbench.vhd|
+!i113 1
+R13
+R14
+Ewb_hazard_unit
+R22
+R5
+R4
+R2
+!i122 2
+R0
+R23
+R24
+l0
+L237 1
+VHfJEXWe;HE2fPEgX8hYL12
+!s100 odETO_NHiFV:BBVNZQK0j1
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Ahazard5
+R5
+R4
+R2
+DEx4 work 14 wb_hazard_unit 0 22 HfJEXWe;HE2fPEgX8hYL12
+!i122 2
+l251
+L249 14
+V4=Iab=49V=Vo:<fJ^L4mX2
+!s100 ?`SezcZif_WcVHzOTD0cl3
+R8
+31
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
